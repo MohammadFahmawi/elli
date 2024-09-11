@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="styleSheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet"> </head>
+<style>
+  .gradient-background {
+    background: linear-gradient(300deg, #472b2b, #c06472, #e1ababfd);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  body {
+    text-align: center;
+       }
+  .Name{
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+  p{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  .middle-container {
+    margin: 140px 0;
+  }
+.profile-img {
+    border-radius: 50%;
+    height: 165px;
+    width: 150px;
+    padding: auto;
+    margin: 15px;
+  }
+ .intro {
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+.text-img{
+    color: #07112d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 25px;
+}
+.skill{
+  font-family:serif;
+  color: #4b111a;
+  font-size: bold;
+}
+hr{
+    border: dotted #5b4114 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.btn{
+ color: white;
+  border:3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: #c06472;
+  padding: 15px;
+  margin: 15px;
+}
+.award{
+  text-decoration: none;
+  color: #ffffff;
+   font-family: sans-serif;
+  
+  }
+</style>
+<body> 
+    <section class="gradient-background ">
+      <div class="px-5 py-5 text-center">
+        <h1 class="Name display-5 fw-bold  py-5 col-sm-8">I'm Mohammad</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-5 py-3 col-sm-3">An Engineer :) </p>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+
+    <section >
+      <div class="middle-container ">
+        <div class="profile">
+          <img class="profile-img" src="./image/MeCV2.jpg" alt="Mohammad-profile-img">
+          <h2 class="text-img"> HELLO</h2>
+          <br/>
+          <p class="intro">I' m an Web Developer. . I ❤️ coffee  </p>
+        </div>
+        <hr>
+    </section>
+    <section>
+      <div>
+      <h1 class="skill"> My Skills</h1>
+      <hr>
+    </div>
+    <div class="container col-xxl-8 px-4 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 ">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./image/laptop.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class=" fw-bold text-body-emphasis lh-1 mb-3 align-items-center">Design & Development</h1>
+          <p class="lead">I started learning programming when I was 18 because I wanted to create my own designs. Over time, I gained experience in web design.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./image/java.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class=" fw-bold text-body-emphasis lh-1 mb-3 align-items-center">Java Developer</h1>
+          <p class="lead">I joind Java course in 2023 and earned certificate of completion! </p>
+        <a href="./image/a4.jpeg"> <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >CERTIFICATE . . . </button> </a>
+        </div>
+      </div>
+    </div>
+      
+    <div class="container col-xxl-8 px-4 ">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./image/Microsoft.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class=" fw-bold text-body-emphasis lh-1 mb-3 align-items-center">Microsoft Office</h1>
+          <p class="lead">I have high skills in microsoft office</p>
+        </div>
+      </div>
+    </div>
+      
+    </section>
+    <hr />
+    <section >
+    <h1 >I participated in many workshops, most notably . . . </h1>
+    <br />
+    <ul>
+    <li><a class="award" href="./image/a0.jpeg"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >Plato - Certificate</button></a></li>    
+    <li><a class="award" href="./image/a1.jpeg"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >Technical intelligence - Certificate</button></a></li>
+    <li><a class="award" href="./image/a3.jpeg"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >Media Communication Basics - Certificate</button></a></li>
+    <li><a class="award" href="./image/a3.jpeg"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >Ana-Usharek - Certificate</button></a></li>
+    </ul>  
+    </section>
+    <hr>
+    <section>
+        <h1 class="Name">Get In Touch</h1>
+        <br />
+        <a class="btn btn-outline-primary" href="https://mail.google.com/mail/u/0/#inbox">CONTACT ME</a>
+    </section>
+    <hr>
+    <section class="gradient-background">
+      <footer class=" py-5">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Instagram</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Linkedin</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">WhatsApp</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">©-FAHMAWI</p>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
